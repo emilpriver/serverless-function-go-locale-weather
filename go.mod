@@ -1,4 +1,4 @@
-module github.com/someone/locale-weather
+module github.com/emilpriver/serverless-function-go-locale-weather
 
 go 1.15
 
