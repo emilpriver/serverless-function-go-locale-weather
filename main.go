@@ -20,7 +20,7 @@ func handler(ctx context.Context, request events.APIGatewayProxyRequest) (*event
 
 	cc := lc.ClientContext
 
-	fmt.Println(cc)
+	fmt.Println(lc)
 
 	return &events.APIGatewayProxyResponse{
 		StatusCode: 200,
